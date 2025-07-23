@@ -62,3 +62,47 @@ header nav .nav-container .cart{
 #home-span{
     font-weight:600;
 }
+
+.first-part{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 1200px;
+    margin: 20px auto 20px auto;
+    margin-top: 80px;
+    align-items: end;
+    justify-content:space-between;
+}
+
+.first-part .paragraph{
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 480px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-top: 50px;
+    gap: 10px;
+
+
+}
+
+.first-part .paragraph h1{
+    font-size: 60px;
+    color: orangered;
+}
+
+#always{
+    color: black;
+}
+
+.first-part .paragraph p{
+    color: gray;
+    /* border: 2px solid green; */
+    width: 380px;
+}
+
+.first-part img{
+    width: 450px;
+    height: auto;
+}
