@@ -164,3 +164,49 @@ header nav .nav-container .cart{
     background-color: orangered;
     border: 0;
 }
+
+.third-part{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 1100px;
+    height: 500px;
+    margin: 20px auto;
+    justify-content:flex-start;
+    gap: 70px;
+    position: relative;
+}
+
+.third-part #flower-store{
+    width: 500px;
+    height: 500px;
+}
+
+.third-part #trusted-badge{
+    position: absolute;
+    z-index: 100;
+    left: 350px;
+    top:-90px;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    background-color: transparent;
+}
+.third-part .des-flower{
+    /* border: 2px solid blue; */
+    padding: 20px;
+    width: 400px;
+
+
+}
+.third-part .des-flower h1{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.third-part .des-flower ul{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.third-part .des-flower ul li{
+    padding: 5px;
+}
