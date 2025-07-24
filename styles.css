@@ -209,4 +209,129 @@ header nav .nav-container .cart{
 
 .third-part .des-flower ul li{
     padding: 5px;
+    color: gray;
+}
+
+.fourth-part{
+    /* border: 2px solid black; */
+    width: 900px;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+.fourth-part h1{
+    font-size: 40px;
+}
+
+.fourth-part h1 span{
+    color: orangered;
+}
+.fourth-part p{
+    text-align: center;
+    color: gray;
+    width: 680px;
+}
+
+.fifth-part{
+    /* border: 2px solid black; */
+    width: 1020px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 370px 505px;
+    grid-template-rows: repeat(2, 205px);
+    gap: 20px;
+
+}
+
+.fifth-part img{
+    filter:brightness(50%);
+    /* border: 2px solid red; */
+    border-radius: 20px;
+
+}
+
+
+.offer1, .offer2, .offer3{
+    /* border: 2px solid green; */
+    position: relative;
+
+}
+.offer1{
+    height: 205px;
+}
+.fifth-part .offer3 #image3{
+    width: 630px;
+    height: 428px;
+}
+
+.text-part1, .text-part2, .text-part3{
+    position: absolute;
+    z-index: 10;
+    /* border: 2px solid yellow; */
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.fifth-part p, .fifth-part a{
+    background-color: transparent;
+}
+
+.text-part1{
+    color: white;
+    top: 70px;
+    left: 90px;
+
+}
+
+.text-part2{
+    color: white;
+    top: 70px;
+    left: 90px;
+
+}
+
+.text-part3{
+    color: white;
+    top: 180px;
+    left: 165px;
+
+}
+
+
+.offer3{
+    height: 409px;
+    width: 628px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.text-part1 p, .text-part2 p{
+    font-size: 20px;
+}
+
+.text-part1 a, .text-part2 a{
+    /* text-decoration: none; */
+    font-size: 15px;
+    color: white;
+    text-decoration: underline;
+}
+
+.text-part3 p{
+    font-size: 30px;
+}
+
+.text-part3 a{
+    /* text-decoration: none; */
+    font-size: 20px;
+    /* border: 2px solid purple; */
+    color: white;
+    text-decoration: underline;
 }
